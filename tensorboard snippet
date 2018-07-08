@@ -1,0 +1,4 @@
+writer = tf.summary.FileWriter('.')
+writer.add_graph(tf.get_default_graph())
+
+tensorboard --logdir .
