@@ -49,7 +49,7 @@ for i in x_vals:
 plt.plot(x_vals, y_vals, 'o', label="Data Points")
 plt.plot(x_vals, best_fit, 'b-', label="Best Fit line", linewidth=3)
 plt.legend(loc="upper left")
-plt.title('Sepal Length vs Petal Width')
+plt.title("Sepal Length vs Petal Width Linear Regression")
 plt.xlabel("Sepal Length")
 plt.ylabel("Petal Width")
 plt.show()
